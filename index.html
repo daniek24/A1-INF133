@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Daniel Kim
+EMAIL: daniek24@uci.edu
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Daniel Kim">
+  <meta name="description" content="A portfolio page for my past work, experiences, and projects">
+   <!-- you would link to an external stylesheet here! -->
+   <link rel="stylesheet" href="style.css">
+   
+   <!-- you would also link to Bootstrap here! -->
+  <title>title here</title>
+</head>
+
+
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>DK</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero mouse-tracking">
+        <span>
+          <h2>Daniel Kim</h2>
+          <p>is a Computer Science student at the University of California, Irvine</p>
+        </span>
+     <!--  <a href="#projects" class="btn">View My Work</a>  --> 
+    </div>
+
+    <section id="about">
+        <h2>More About Me</h2>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto;">
+            Born and raised in Southern California by Korean Immigrants, I am a passionate and thoughful aspiring Software Engineer and Creative Technologist. I'd like to integrate my skills in Software Development, AI, and Web Design/Devlopment into work and projects surrounding my other interests such as sustainability, fashion, music, graphic design, and digital accessibility.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Work and Projects</h2>
+
+        <div class="projects">
+            <div class="project-card">
+              <img src="src/wayvia.png" alt="Wayvia" class="project-image" >
+                <div class="project-content">
+                    <h3><a href="https://wayvia.com/" style="color: maroon;">Wayvia (Ongoing)</a></h3>
+                    <p>As part of UCI's CS-180A/B Capstone project/internships, myself and a group of 4 other CS Undergraduates have been partnered with Wayvia, a retail and branding intelligence company. Our ongoing and future work includes Computer Vision and OCR to identify products through shelving/product images and receipt scans, and implementing a full-stack iOS Application. The tech stack for this project includes React Native, Typescript, Python, and AWS.</p>
+                </div>
+            </div>
+            <div class="project-card">
+              <img src="src/firms.png" alt="NASA Firms" class="project-image" >
+                <div class="project-content">
+                    <h3 style="color: maroon;">Wildfire Predicition and Analysis (Summer 2025) </h3>
+                    <p>Under advisory of Professor <a href="https://teuscher-lab.com/altreu/program-details/">Christoph Teuscher</a> at Portland State University, myself and a partner worked on a research project aimed at predicting and analyzing wildfire risk using AI and Machine Learning. I wrote scripts to collect and parse data from NASA FIRMS satellite archives, and created target variables for over 30,000 datapoints using CalFires’ historic wildfire perimeter data, which involved Geographic JSON (GeoJSON) filetypes supported by ArcGIS.</p>
+                </div>
+            </div>
+            <div class="project-card">
+              <img src="src/goober.png" alt="ICS Search Engine" class="project-image" >
+                <div class="project-content">
+                    <h3><a href="https://goober-tau.vercel.app" style="color: maroon;">ISC Search Engine</a></h3>
+                    <p>For CS-120 (Information Retrival), my group and I developed a Web Search Engine of the entire UCI ICS web database capable of retrieving all tested queries in under 250ms. Our querying system used inverted partial indexing of over 55,000 unique documents and 940,000 unique tokens and a ranked database retrieval system which combined tf-idf scores and a custom html tag scoring system. We deployed a front-end using Verscel and Typsecript converted from Python.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Git</span>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+            <a href="daniek24@uci.edu">Email</a>
+            <a href="https://github.com/daniek24" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/daniel-kim-a83103305/" target="_blank">LinkedIn</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Daniel Kim.</p>
+        <p>
+          <a href="http://validator.w3.org/check?uri=referer" style="color: white;">
+             W3C validator
+          </a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+  
+</html>
